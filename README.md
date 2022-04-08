@@ -45,3 +45,18 @@ Example:
 - torchvision==0.9.0 
 
 - quadprog==0.1.7
+
+## Cite Our Work
+
+If you find the code useful in your research, please consider citing our paper:
+
+<pre>
+@inproceedings{
+arani2022learning,
+title={Learning Fast, Learning Slow: A General Continual Learning Method based on Complementary Learning System},
+author={Elahe Arani and Fahad Sarfraz and Bahram Zonooz},
+booktitle={International Conference on Learning Representations},
+year={2022},
+url={https://openreview.net/forum?id=uxxFrDwrE7Y}
+}
+</pre>
