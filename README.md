@@ -13,7 +13,6 @@ We extended the [Mammoth](https://github.com/aimagelab/mammoth) framework with o
 
  Examples:
 
-    ```
     python main.py --dataset seq-mnist --model clser --buffer_size 500 --load_best_args
     
     python main.py --dataset seq-cifar10 --model clser --buffer_size 500 --load_best_args
@@ -24,7 +23,7 @@ We extended the [Mammoth](https://github.com/aimagelab/mammoth) framework with o
     
     python main.py --dataset rot-mnist --model clser --buffer_size 500 --load_best_args
     
-    python main.py --dataset mnist-360 --model clser --buffer_size 500 --load_best_args```
+    python main.py --dataset mnist-360 --model clser --buffer_size 500 --load_best_args
 
 + For GCIL-CIFAR-100 Experiments
 
@@ -32,11 +31,9 @@ We extended the [Mammoth](https://github.com/aimagelab/mammoth) framework with o
 
 Example:
 
-    ```
     python main.py --dataset gcil-cifar100 --weight_dist unif --model clser --buffer_size 500 --load_best_args
     
     python main.py --dataset gcil-cifar100 --weight_dist longtail --model clser --buffer_size 500 --load_best_args
-    ```
 
 ## Requirements
 
@@ -50,13 +47,11 @@ Example:
 
 If you find the code useful in your research, please consider citing our paper:
 
-<pre>
-@inproceedings{
-arani2022learning,
-title={Learning Fast, Learning Slow: A General Continual Learning Method based on Complementary Learning System},
-author={Elahe Arani and Fahad Sarfraz and Bahram Zonooz},
-booktitle={International Conference on Learning Representations},
-year={2022},
-url={https://openreview.net/forum?id=uxxFrDwrE7Y}
-}
-</pre>
+    @inproceedings{
+      arani2022learning,
+      title={Learning Fast, Learning Slow: A General Continual Learning Method based on Complementary Learning System},
+      author={Elahe Arani and Fahad Sarfraz and Bahram Zonooz},
+      booktitle={International Conference on Learning Representations},
+      year={2022},
+      url={https://openreview.net/forum?id=uxxFrDwrE7Y}
+    }
