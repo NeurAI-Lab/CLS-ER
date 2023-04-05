@@ -1,5 +1,5 @@
 # Learning Fast, Learning Slow 
-Official Repository for Learning Fast, Learning Slow: A General Continual Learning Method based on Complementary Learning System
+Official Repository for ICLR'22 Paper ["Learning Fast, Learning Slow: A General Continual Learning Method based on Complementary Learning System"](https://arxiv.org/pdf/2201.12604.pdf)
 
 We extended the [Mammoth](https://github.com/aimagelab/mammoth) framework with our method (CLS-ER) and GCIL-CIFAR-100 dataset
 
